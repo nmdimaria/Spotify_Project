@@ -1,1 +1,1 @@
-# Spotifty_Project
+# Spotify_Project
