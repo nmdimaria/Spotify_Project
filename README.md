@@ -1,5 +1,7 @@
 # Spotify_Project
 
+Week 1 Progress Report: https://www.evernote.com/shard/s522/client/snv?noteGuid=645a7111-d927-9e5f-0e45-a0c12d7695e7&noteKey=836400d78872322e01f3f40c39e6f35f&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs522%2Fsh%2F645a7111-d927-9e5f-0e45-a0c12d7695e7%2F836400d78872322e01f3f40c39e6f35f&title=Fin%2BProj%252FSegment%2B1%253A%2BETL
+
 ## Summary
 Have you ever thought that "All pop music sounds the same"? Our final project will finally test that hypothesis...
 
