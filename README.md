@@ -5,9 +5,9 @@ Week 1 Progress Report: https://www.evernote.com/shard/s522/client/snv?noteGuid=
 ### Deliverable 1: 
 
 - Presentiation can be found in the ReadMe
-- Our Github is up to date with all relevent content
+- Our Github is up to date with all relevent content ("Final Code" folder contains ETL)
 - SVM file is our machine learning model
-- Database schema can be found in "Final Code" folder
+- Database SQL schema can be found in "Final Code" folder and in DB Schema
 
 ## Summary
 Have you ever thought that "All pop music sounds the same"? Our final project will finally test that hypothesis...
