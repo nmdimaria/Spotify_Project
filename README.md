@@ -36,8 +36,9 @@ https://techxplore.com/news/2019-09-spotify-songs.html
 ## Technologies Employed
 
 - Spotipy Python/API library
-- Python with Pandas/Numpy etc.
-- Postgress database hosted on Heroku
+- Python with Pandas/Numpy etc. for ETL
+- SVM, Random Forrest machine learning models
+- Postgres database
 - Tableau for visualizations
 
 ## Communication
