@@ -6,9 +6,9 @@
 -- two dots ('..' - without quotes).
 
 CREATE TABLE "SpotifyFeatures" (
-    "genre" string   NOT NULL,
-    "artist_name" string   NOT NULL,
-    "track_name" string   NOT NULL,
+    "genre" text   NOT NULL,
+    "artist_name" text   NOT NULL,
+    "track_name" text   NOT NULL,
     "track_id" int   NOT NULL,
     "popularity" int   NOT NULL,
     "acousticness" float   NOT NULL,
@@ -16,15 +16,16 @@ CREATE TABLE "SpotifyFeatures" (
     "duration_ms" int   NOT NULL,
     "energy" float   NOT NULL,
     "instrumentalness" float   NOT NULL,
-    "key" string   NOT NULL,
+    "key" text   NOT NULL,
     "liveness" float   NOT NULL,
     "loudness" float   NOT NULL,
-    "mode" string   NOT NULL,
+    "mode" text   NOT NULL,
     "speechiness" float   NOT NULL,
     "tempo" float   NOT NULL,
-    "time_signature" string   NOT NULL,
+    "time_signature" text   NOT NULL,
     "valence" float   NOT NULL,
-    "release_date" string   NOT NULL,
+    "release_date" datetime   NOT NULL,
+    "year" int  NOT NULL,
     CONSTRAINT "pk_SpotifyFeatures" PRIMARY KEY (
         "track_id"
      )
