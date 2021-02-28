@@ -48,3 +48,10 @@ https://techxplore.com/news/2019-09-spotify-songs.html
 
 ## Communication
 We will be using our Slack group as well as regular Zoom meetings to coordinate as well as keeping our code on Github for collaberation
+
+## Machine Learning Model
+
+- We are aiming for our final ML dataset to contain about 50,000 rows. 
+- The popularity measure from Spotify is on a scale from 0 (least popular) to 100 (most popular). We decided to create a cutoff in the popularity of 70 and consider everything below that threshold as unpopular and everything above as popular. This corresponds to roughly the top 10% songs. 
+- The primary features from Spotify were numerical and scaled easily using the StandardScaler. 
+
