@@ -3,8 +3,8 @@
 ### Deliverable 2: 
 
 - Presentiation can be found at https://docs.google.com/presentation/d/1l4uSM41oqsHwszULNW9IYb_7RSEgzeA58z1-NmlePnE/edit#slide=id.p
-- Our Github is up to date with all relevent content ("Final Code" folder contains ETL)
-- SVM file is our machine learning model
+- Our Github is up to date with all relevent content ("Final Code" folder contains ETL) AND see Data for analysis description
+- SVM file is our machine learning model AND see Technologies for description
 - Database SQL schema can be found in "Final Code" folder and in DB Schema
 
 ## Summary
@@ -18,6 +18,12 @@ Part of our presentation/visualizations will be to pick out common elements and 
 
 ## Data
 See code for examples of input data.
+
+Spotify is a very interesting source of data for this the project. It can be very difficult to pull a large amount of random songs directly from the API, but we were able to find some people who had done it already.
+
+We needed to suppliment the data source (the 1920-2020 dataset) with the year and release date to be able to filter the data from the past 10 years. We want to define popularity in new music only. The dataset is also quite large and we need to slim it down a bit to make our machine learning model more efficient. We filtered out some irrelevant genres like Classical and Opera because there is a good bet that most songs written for those genres were written centuries ago even if the recordings were done more recently.
+
+Finally, the popularity measure is a number between 0 and 100. To streamline the prediction process, we converted the measure to a binary scale by classifing every song with a popularity rating 60 and above as popular (1) and everything below as unpopular (0).
 
 Kaggle data 
 
@@ -37,6 +43,7 @@ https://techxplore.com/news/2019-09-spotify-songs.html
 - Python with Pandas/Numpy etc. for ETL
 - SVM, Random Forrest machine learning models
 - Postgres database
+- AWS cloud storage
 - Tableau for visualizations
 
 ## Communication
