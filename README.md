@@ -54,4 +54,6 @@ We will be using our Slack group as well as regular Zoom meetings to coordinate 
 - We are aiming for our final ML dataset to contain about 50,000 rows. 
 - The popularity measure from Spotify is on a scale from 0 (least popular) to 100 (most popular). We decided to create a cutoff in the popularity of 70 and consider everything below that threshold as unpopular and everything above as popular. This corresponds to roughly the top 10% songs. 
 - The primary features from Spotify were numerical and scaled easily using the StandardScaler. 
+- The data was split by the scikit learn train_test_split. No issues were encountered. 
+- We've decided on using the Linear SVC versus the more broad SVM because it is more obtimized for larger datasets. We will also test a logistic regression and random forest model for comparison. 
 
