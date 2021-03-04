@@ -14,7 +14,7 @@ We will be using data from Spotify's APIs combined with some external data sets 
 
 Part of our presentation/visualizations will be to pick out common elements and describe them in comparison to songs that do not perform as well. Our group has a deep passion for music and we are very excited to present our findings.
 
-#### Nick DiMaria, Will Grace and Michael Rediker
+#### Nick DiMaria and Will Grace
 
 ## Data
 See code for examples of input data.
