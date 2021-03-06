@@ -4,7 +4,7 @@
 
 - Presentiation can be found at https://docs.google.com/presentation/d/1l4uSM41oqsHwszULNW9IYb_7RSEgzeA58z1-NmlePnE/edit#slide=id.p
 - Our Github is up to date with all relevent content ("Final Code" folder contains ETL) AND see Data for analysis description
-- Visualizations can be found at https://public.tableau.com/profile/nmdimaria#!/
+- Visualizations/interactive elements can be found at https://public.tableau.com/profile/nmdimaria#!/
 - SVM file is our machine learning model AND see Technologies for description
 - Database SQL schema can be found in "Final Code" folder and in DB Schema
 
