@@ -5,7 +5,7 @@
 - Presentiation can be found at https://docs.google.com/presentation/d/1l4uSM41oqsHwszULNW9IYb_7RSEgzeA58z1-NmlePnE/edit#slide=id.p
 - Our Github is up to date with all relevent content ("Final Code" folder contains ETL) AND see Data for analysis description
 - Visualizations/interactive elements can be found at https://public.tableau.com/profile/nmdimaria#!/
-- SVM file is our machine learning model AND see Technologies for description
+- Random Forest and XGB are our machine learning models AND see Technologies for description
 - Database SQL schema can be found in "Final Code" folder and in DB Schema
 
 ## Summary
@@ -51,7 +51,7 @@ https://techxplore.com/news/2019-09-spotify-songs.html
 
 - We are aiming for our final ML dataset to contain about 50,000 rows. 
 - The popularity measure from Spotify is on a scale from 0 (least popular) to 100 (most popular). We decided to create a cutoff in the popularity of 70 and consider everything below that threshold as unpopular and everything above as popular. This corresponds to roughly the top 10% songs. 
-- The primary features from Spotify were numerical and scaled easily using the StandardScaler. 
+- The data was oversampled using SMOTE.  
 - The data was split by the scikit learn train_test_split. No issues were encountered. 
-- We've decided on using the Linear SVC versus the more broad SVM because it is more obtimized for larger datasets. We will also test a logistic regression and random forest model for comparison. 
+- The models used were Random Forest and XGBoost. 
 
