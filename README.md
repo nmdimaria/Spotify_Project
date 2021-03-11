@@ -1,12 +1,12 @@
 # Spotify_Project
 
-### Deliverable 3: 
+### Deliverable 4: 
 
 - Presentiation can be found at https://docs.google.com/presentation/d/1l4uSM41oqsHwszULNW9IYb_7RSEgzeA58z1-NmlePnE/edit#slide=id.p
 - Our Github is up to date with all relevent content ("Final Code" folder contains ETL) AND see Data for analysis description
 - Visualizations/interactive elements can be found at https://public.tableau.com/profile/nmdimaria#!/
 - Random Forest and XGB are our machine learning models AND see Technologies for description
-- Database SQL schema can be found in "Final Code" folder and in DB Schema
+- Database SQL schema can be found in sql file
 
 ## Summary
 Have you ever thought that "All pop music sounds the same"? Our final project will finally test that hypothesis...
