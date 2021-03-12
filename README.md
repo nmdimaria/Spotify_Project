@@ -53,5 +53,5 @@ https://techxplore.com/news/2019-09-spotify-songs.html
 - The popularity measure from Spotify is on a scale from 0 (least popular) to 100 (most popular). We decided to create a cutoff in the popularity of 70 and consider everything below that threshold as unpopular and everything above as popular. This corresponds to roughly the top 10% songs. 
 - The data was oversampled using SMOTE.  
 - The data was split by the scikit learn train_test_split. No issues were encountered. 
-- The models used were Random Forest and XGBoost. 
+- We originally tried an SVM model but had poor performance. The models we settled on were Random Forest and XGBoost. 
 
