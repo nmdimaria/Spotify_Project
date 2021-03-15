@@ -9,7 +9,7 @@
 - Database SQL schema can be found in sql file
 
 ## Summary
-Have you ever thought that "All pop music sounds the same"? Our final project will finally test that hypothesis...
+Have you ever thought that "All pop music sounds the same"? This project will finally test that hypothesis...
 
 We will be using data from Spotify's APIs combined with some external data sets to predict which songs will be popular in the future. Spotify's machine learning algorithm analyzes music to determine parameters like key, tempo, time signature, and even danceability, liveliness and popularity. This data, combined with some external data sources cataloguing popular music over the past 10 years and support vector machine learning algorithms will help us prove/disprove our hypothesis and finally put to rest that pop songs have similar, measureable characteristics and that we may even be able to predict future popularity.
 
